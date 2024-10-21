@@ -6,55 +6,86 @@ body{
 
 /*Encabezado*/
 header{
-  background-color: rgb(255, 255, 255);
-  display: inline-flex;
-  justify-content: center;
-  position: fixed;
-  width: 100%; 
-  left: 0; 
-  top: 0; 
-  height: 70px;
-  z-index: 99999;
-}
-.logo{
+    background-color: rgb(255, 255, 255);
     display: inline-flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%; 
+    left: 0; 
+    top: 0; 
+    height: 70px;
+    z-index: 99999;
+  }
+  .logo{
+      display: inline-flex;
+      }
+      
+      .logo img{
+      height: 60px;
+      margin-left: 250px;
+      }
+      
+      .encabezado{
+          padding: 20px;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          width: 70%;
+      }
+      
+      .enlaces{
+          display: flex;
+          gap: 30px;
+      }
+      
+      .enlaces a{
+          text-decoration: none;
+          color: rgb(218, 0, 0);
+          font-family: "Josefin Sans", sans-serif;
+          font-weight: bold;
+          padding: 20px;
+          font-size: 13px;
+          transition: all 300ms ease;
+          text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+      }
+      
+      .enlaces a:hover{
+          transform: scale(1.1);
+          background-color:rgb(189, 0, 0);
+          color: white;
+          cursor: pointer;
+      }
+  
+  /*Submenu de contacto*/
+  a {
+      text-decoration: none;
     }
-    
-    .logo img{
-    height: 60px;
-    margin-left: 250px;
+  
+    ul{
+      list-style: none;
     }
-    
-    .encabezado{
-        padding: 20px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 70%;
+  
+    .nav li a{
+      text-decoration: none;
+      background-color: rgb(255, 255, 255);
+      padding: 10px ;
+      display: block;
     }
-    
-    .enlaces{
-        display: flex;
-        gap: 30px;
-        margin-right: 25px;
-    
+  
+    nav > li{
+      float: left;
     }
-    
-    .enlaces a{
-        text-decoration: none;
-        color: rgb(218, 0, 0);
-        font-family: "Josefin Sans", sans-serif;
-        font-weight: bold;
-        padding: 20px;
-        font-size: 15px;
-        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+  
+    .nav li ul {
+      display: none;
+      position: absolute;
+      min-height: 140px;
+      padding-top: 10px;
+      
     }
-    
-    .enlaces a:hover{
-        background-color:rgb(189, 0, 0);
-        border-radius: 20px;
-        color: white;
-        cursor: pointer;
+  
+    .nav li:hover > ul{
+      display: block;
     }
     
     /*fooder*/
