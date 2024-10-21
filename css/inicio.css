@@ -44,16 +44,49 @@ header{
         font-family: "Josefin Sans", sans-serif;
         font-weight: bold;
         padding: 20px;
-        font-size: 15px;
+        font-size: 13px;
+        transition: all 300ms ease;
         text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
     }
     
     .enlaces a:hover{
+        transform: scale(1.1);
         background-color:rgb(189, 0, 0);
-        border-radius: 20px;
         color: white;
         cursor: pointer;
     }
+
+/*Submenu de contacto*/
+a {
+    text-decoration: none;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .nav li a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px ;
+    display: block;
+  }
+
+  nav > li{
+    float: left;
+  }
+
+  .nav li ul {
+    display: none;
+    position: absolute;
+    min-height: 140px;
+    padding-top: 10px;
+    
+  }
+
+  .nav li:hover > ul{
+    display: block;
+  }
 
 /*contenido de inicio*/
 .imgfondo{
@@ -66,7 +99,7 @@ header{
 
 .contenidocuerpo{
     text-align: center;
-    padding: 150px;
+    padding: 230px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
     position: relative;
@@ -76,34 +109,191 @@ header{
 }
 
 .info{
-    padding-top: 350px;
+    padding-top: 300px;
     text-align: center;
     
 }
 
-.info ul{
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin-left: 18%;
-    
-    
+.info ul li{
+    line-height: 30px;
+    font-size: 17px;
 }
 
+/*POSICIONES 1, 2, 3*/
+.linea1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
 
-section img{
-    height: 250px;
+.linea1 p{
+    line-height: 25px;
+}
+
+.linea1 img {
     width: 200px;
-    display: flex;
+    display: block;
+    margin-left: 50px;
     margin-right: 50px;
-    padding-left: 75px;
+    margin-bottom: 20px;
     border-radius: 20px;
+    transition: transform 0.3s;
 }
 
-section {
-    
-    padding: 20px;
+.linea1 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 4, 5, 6*/
+.linea2{
     display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea2 p{
+    line-height: 25px;
+}
+
+.linea2 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea2 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 7, 8, 9*/
+.linea3{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea3 p{
+    line-height: 25px;
+}
+
+.linea3 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea3 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 10, 11, 12*/
+.linea4{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea4 p{
+    line-height: 25px;
+}
+
+.linea4 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea4 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 13, 14, 15*/
+.linea5{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea5 p{
+    line-height: 25px;
+}
+
+.linea5 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea5 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 16, 17, 18*/
+.linea6{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea6 p{
+    line-height: 25px;
+}
+
+.linea6 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea6 img:hover{
+    transform: scale(1.05);
+}
+
+/*POSICIONES 19, 20*/
+.linea7{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.linea7 p{
+    line-height: 25px;
+}
+
+.linea7 img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.linea7 img:hover{
+    transform: scale(1.05);
 }
 
 /*fooder*/
