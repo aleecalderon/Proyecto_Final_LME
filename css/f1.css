@@ -88,6 +88,255 @@ header{
       display: block;
     }
 
+/*cONTENIDO F1, PARRILLA*/
+
+.equipos{
+    padding: 10%;
+    text-align: center;
+}
+
+/*mercedes*/
+
+.mercedes img{
+    filter: drop-shadow(0 0 0.75rem rgb(0, 190, 159))
+}
+
+.mercedes p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(0, 190, 159);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.mercedes p:hover{
+    transform: scale(1.1);
+}
+
+/*ferrari*/
+.ferrari img{
+    filter: drop-shadow(0 0 0.75rem rgb(190, 0, 0))
+}
+
+.ferrari p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(190, 0, 0);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.ferrari p:hover{
+    transform: scale(1.1);
+}
+
+/*red bull*/
+.redbull img{
+    filter: drop-shadow(0 0 0.75rem rgb(23, 39, 131))
+}
+
+.redbull p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(23, 39, 131);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.redbull p:hover{
+    transform: scale(1.1);
+}
+
+/*mclaren*/
+.mclaren img{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 131, 16))
+}
+
+.mclaren p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(255, 131, 16);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.mclaren p:hover{
+    transform: scale(1.1);
+}
+
+/*ALPHINE*/
+.alphine img{
+    filter: drop-shadow(0 0 0.75rem rgb(31, 34, 61))
+}
+
+.alphine p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(31, 34, 61);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.alphine p:hover{
+    transform: scale(1.1);
+}
+
+/*ASTON MARTIN*/
+.aston img{
+    filter: drop-shadow(0 0 0.75rem rgb(6, 56, 19))
+}
+
+.aston p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(6, 56, 19);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.aston p:hover{
+    transform: scale(1.1);
+}
+
+/*alfa romeo*/
+.alfa img{
+    filter: drop-shadow(0 0 0.75rem rgb(104, 18, 18))
+}
+
+.alfa p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(104, 18, 18);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.alfa p:hover{
+    transform: scale(1.1);
+}
+
+/*alfa romeo*/
+.alfa img{
+    filter: drop-shadow(0 0 0.75rem rgb(104, 18, 18))
+}
+
+.alfa p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(104, 18, 18);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.alfa p:hover{
+    transform: scale(1.1);
+}
+
+/*alfa romeo*/
+.alfa img{
+    filter: drop-shadow(0 0 0.75rem rgb(104, 18, 18))
+}
+
+.alfa p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(104, 18, 18);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.alfa p:hover{
+    transform: scale(1.1);
+}
+
+/*ALPHA TAURI*/
+.tauri img{
+    filter: drop-shadow(0 0 0.75rem rgb(27, 42, 110))
+}
+
+.tauri p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(27, 42, 110);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.tauri p:hover{
+    transform: scale(1.1);
+}
+
+/*HAAS*/
+.haas img{
+    filter: drop-shadow(0 0 0.75rem rgb(190, 15, 15))
+}
+
+.haas p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(190, 15, 15);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.haas p:hover{
+    transform: scale(1.1);
+}
+
+/*WILLIAMS*/
+.williams img{
+    filter: drop-shadow(0 0 0.75rem rgb(71, 138, 201))
+}
+
+.williams p{
+    padding: 10px;
+    font-weight: bold ;
+    background: rgb(71, 138, 201);
+    width: 200px;
+    height: auto;
+    word-wrap: break-word;
+    margin-left: 42%;
+    border-radius: 10px 100px / 120px;
+    transition: all .3s ease;
+}
+.williams p:hover{
+    transform: scale(1.1);
+}
+
+
     /*fooder*/
 *{
     margin: 0;
