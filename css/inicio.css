@@ -145,6 +145,7 @@ a {
 
 .linea1 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 4, 5, 6*/
@@ -170,6 +171,7 @@ a {
 
 .linea2 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 7, 8, 9*/
@@ -195,6 +197,7 @@ a {
 
 .linea3 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 10, 11, 12*/
@@ -220,6 +223,7 @@ a {
 
 .linea4 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 13, 14, 15*/
@@ -245,6 +249,7 @@ a {
 
 .linea5 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 16, 17, 18*/
@@ -270,6 +275,7 @@ a {
 
 .linea6 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*POSICIONES 19, 20*/
@@ -295,6 +301,7 @@ a {
 
 .linea7 img:hover{
     transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
 }
 
 /*fooder*/
