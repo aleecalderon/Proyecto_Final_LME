@@ -95,6 +95,13 @@ header{
     text-align: center;
 }
 
+/*PRIMERA FILA PILOTOS*/
+.MF{
+    display: flex;
+    justify-content: center;
+
+}
+
 /*mercedes*/
 
 .mercedes img{
@@ -102,18 +109,22 @@ header{
 }
 
 .mercedes p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(0, 190, 159);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 20%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 190, 159))
+    
 }
 .mercedes p:hover{
     transform: scale(1.1);
+    
 }
 
 /*ferrari*/
@@ -122,18 +133,28 @@ header{
 }
 
 .ferrari p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(190, 0, 0);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 20%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(190, 0, 0))
 }
 .ferrari p:hover{
     transform: scale(1.1);
+}
+
+/*SEGUNDA FILA PILOTOS*/
+.RM{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
 }
 
 /*red bull*/
@@ -142,15 +163,17 @@ header{
 }
 
 .redbull p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(23, 39, 131);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(23, 39, 131))
 }
 .redbull p:hover{
     transform: scale(1.1);
@@ -162,18 +185,28 @@ header{
 }
 
 .mclaren p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(255, 131, 16);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(255, 131, 16))
 }
 .mclaren p:hover{
     transform: scale(1.1);
+}
+
+/*TERCERA FILA PILOTOS*/
+.AA{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
 }
 
 /*ALPHINE*/
@@ -182,15 +215,17 @@ header{
 }
 
 .alphine p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(31, 34, 61);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(31, 34, 61))
 }
 .alphine p:hover{
     transform: scale(1.1);
@@ -202,38 +237,28 @@ header{
 }
 
 .aston p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(6, 56, 19);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(6, 56, 19))
 }
 .aston p:hover{
     transform: scale(1.1);
 }
 
-/*alfa romeo*/
-.alfa img{
-    filter: drop-shadow(0 0 0.75rem rgb(104, 18, 18))
-}
+/*CUARTA FILA PILOTOS*/
+.RT{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
 
-.alfa p{
-    padding: 10px;
-    font-weight: bold ;
-    background: rgb(104, 18, 18);
-    width: 200px;
-    height: auto;
-    word-wrap: break-word;
-    margin-left: 42%;
-    border-radius: 10px 100px / 120px;
-    transition: all .3s ease;
-}
-.alfa p:hover{
-    transform: scale(1.1);
 }
 
 /*alfa romeo*/
@@ -242,35 +267,17 @@ header{
 }
 
 .alfa p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(104, 18, 18);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
-}
-.alfa p:hover{
-    transform: scale(1.1);
-}
-
-/*alfa romeo*/
-.alfa img{
     filter: drop-shadow(0 0 0.75rem rgb(104, 18, 18))
-}
-
-.alfa p{
-    padding: 10px;
-    font-weight: bold ;
-    background: rgb(104, 18, 18);
-    width: 200px;
-    height: auto;
-    word-wrap: break-word;
-    margin-left: 42%;
-    border-radius: 10px 100px / 120px;
-    transition: all .3s ease;
 }
 .alfa p:hover{
     transform: scale(1.1);
@@ -282,18 +289,28 @@ header{
 }
 
 .tauri p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(27, 42, 110);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(27, 42, 110))
 }
 .tauri p:hover{
     transform: scale(1.1);
+}
+
+/*QUINTA FILA PILOTOS*/
+.HW{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+
 }
 
 /*HAAS*/
@@ -302,15 +319,17 @@ header{
 }
 
 .haas p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(190, 15, 15);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(190, 15, 15))
 }
 .haas p:hover{
     transform: scale(1.1);
@@ -322,15 +341,17 @@ header{
 }
 
 .williams p{
+    text-align: center;
     padding: 10px;
     font-weight: bold ;
     background: rgb(71, 138, 201);
     width: 200px;
     height: auto;
     word-wrap: break-word;
-    margin-left: 42%;
+    margin-left: 30%;
     border-radius: 10px 100px / 120px;
     transition: all .3s ease;
+    filter: drop-shadow(0 0 0.75rem rgb(71, 138, 201))
 }
 .williams p:hover{
     transform: scale(1.1);
