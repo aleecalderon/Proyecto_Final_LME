@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a0a; /* Negro para el fondo */
+    color: #fff; /* Texto en blanco */
+    overflow: hidden !important;
+    font-family: "Formula1 Display Regular", sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("/IMG/Background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    position: relative;
+}
+
+.left {
+    height: 100%;
+    padding: 20px;
+    margin: 0 auto !important;
+    position: relative;
+    top: 75%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    flex: 1;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+.left h1 {
+    font-size: 3.5rem;
+    color: #ff1e00; /* Rojo vibrante */
+    text-transform: uppercase;
+    font-weight: bold;
+    /* line-height: 1.2;
+    letter-spacing: 2px; */
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    padding: 20px 20px 20px 100px;
+    flex: 2;
+}
+
+.leaderboard {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+}
+
+.row {
+    height: 6vh;
+    display: flex;
+    margin-bottom: 4px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    /* padding: 10px; */
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+.row:hover{
+    box-shadow: 0 0 30px rgb(255, 30, 0);
+    transform: scale(1.1); 
+}
+
+.race-number {
+    background-color: #cd0602;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 75px;
+    text-align: center;
+    justify-content: center;
+    /* border-radius: 5px; */
+    margin-right: 10px;
+}
+
+.country-img{
+    height: 40px;
+    width: 70px;
+    margin: 5px;
+    filter: drop-shadow(0 0 0.2rem rgb(10, 10, 10));
+}
+
+.race-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    font-size: 12px;
+    color: #5d5d5d;
+}
+
+.race-info strong {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e00904; /* Rojo para los nombres de los países */
+}
+
+.race-info span {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.race-info p {
+    font-size: 14px;
+    color: #272727;
+    font-weight: bold;
+}
