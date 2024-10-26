@@ -443,8 +443,8 @@ header{
 }
 
 .country-img{
-    height: 40px;
-    width: 70px;
+    height: 25px;
+    width: 45px;
     margin: 5px;
     filter: drop-shadow(0 0 0.2rem rgb(10, 10, 10));
 }
@@ -455,12 +455,12 @@ header{
     flex-direction: column;
     justify-content: center;
     margin-left: 20px;
-    font-size: 12px;
+    font-size: 10px;
     color: #5d5d5d;
 }
 
 .race-info strong {
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
     color: #e00904; /* Rojo para los nombres de los países */
@@ -472,7 +472,7 @@ header{
 }
 
 .race-info p {
-    font-size: 14px;
+    font-size: 12px;
     color: #272727;
     font-weight: bold;
 }

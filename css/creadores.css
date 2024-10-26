@@ -87,6 +87,43 @@ header{
     .nav li:hover > ul{
       display: block;
     }
+
+/*CREADORES*/
+.creadores{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+.creadores p{
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
+    transition: all .3s ease;
+    filter: drop-shadow(0 0 5rem rgb(190, 15, 15))
+}
+.creadores p:hover{
+    transform: scale(1.1);
+}
+
+
+.creadores img:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 0.75rem rgb(163, 0, 0))
+}
+
+.creadores img {
+    width: 200px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
     
     /*fooder*/
 *{

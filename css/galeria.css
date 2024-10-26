@@ -1,92 +1,134 @@
 body{
-  font-family: "Josefin Sans", sans-serif;
-  margin: 0%;
-  background-color: rgb(241, 241, 241);
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0%;
+    background-color: rgb(241, 241, 241);
 }
 
 /*Encabezado*/
 header{
-    background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  display: inline-flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%; 
+  left: 0; 
+  top: 0; 
+  height: 70px;
+  z-index: 99999;
+}
+.logo{
     display: inline-flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%; 
-    left: 0; 
-    top: 0; 
-    height: 70px;
-    z-index: 99999;
+    }
+    
+    .logo img{
+    height: 60px;
+    margin-left: 250px;
+    }
+    
+    .encabezado{
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 70%;
+    }
+    
+    .enlaces{
+        display: flex;
+        gap: 30px;
+    }
+    
+    .enlaces a{
+        text-decoration: none;
+        color: rgb(218, 0, 0);
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: bold;
+        padding: 20px;
+        font-size: 13px;
+        transition: all 300ms ease;
+        text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
+    }
+    
+    .enlaces a:hover{
+        transform: scale(1.1);
+        background-color:rgb(189, 0, 0);
+        color: white;
+        cursor: pointer;
+    }
+
+/*Submenu de contacto*/
+a {
+    text-decoration: none;
   }
-  .logo{
-      display: inline-flex;
-      }
-      
-      .logo img{
-      height: 60px;
-      margin-left: 250px;
-      }
-      
-      .encabezado{
-          padding: 20px;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          width: 70%;
-      }
-      
-      .enlaces{
-          display: flex;
-          gap: 30px;
-      }
-      
-      .enlaces a{
-          text-decoration: none;
-          color: rgb(218, 0, 0);
-          font-family: "Josefin Sans", sans-serif;
-          font-weight: bold;
-          padding: 20px;
-          font-size: 13px;
-          transition: all 300ms ease;
-          text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
-      }
-      
-      .enlaces a:hover{
-          transform: scale(1.1);
-          background-color:rgb(189, 0, 0);
-          color: white;
-          cursor: pointer;
-      }
-  
-  /*Submenu de contacto*/
-  a {
-      text-decoration: none;
-    }
-  
-    ul{
-      list-style: none;
-    }
-  
-    .nav li a{
-      text-decoration: none;
-      background-color: rgb(255, 255, 255);
-      padding: 10px ;
-      display: block;
-    }
-  
-    nav > li{
-      float: left;
-    }
-  
-    .nav li ul {
-      display: none;
-      position: absolute;
-      min-height: 140px;
-      padding-top: 10px;
-      
-    }
-  
-    .nav li:hover > ul{
-      display: block;
-    }
+
+  ul{
+    list-style: none;
+  }
+
+  .nav li a{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px ;
+    display: block;
+  }
+
+  nav > li{
+    float: left;
+  }
+
+  .nav li ul {
+    display: none;
+    position: absolute;
+    min-height: 140px;
+    padding-top: 10px;
+    
+  }
+
+  .nav li:hover > ul{
+    display: block;
+  }
+
+ /*Galeria contenido*/
+
+ .contenedor-galeria {
+    margin-left: 100px;
+    padding: 100px;
+    display: grid;
+    place-items: center;
+    width: 500px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 100%;
+}
+
+.contenedor-imagen {
+    place-items: center;
+    position: relative;
+    width: 1000px;
+    border-radius: 5px;
+    height: 500px;
+    overflow: hidden;
+    background-color: #efefef;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgb(0, 0, 0, 0.5);
+    flex: 0.25;
+}
+
+.contenedor-imagen img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.contenedor-imagen:hover {
+    flex: 2;
+    cursor: pointer;
+    border-radius: 8px;
+}
 
     /*fooder*/
 *{
