@@ -15,14 +15,15 @@ header{
     top: 0; 
     height: 70px;
     z-index: 99999;
+    padding: 10px;
   }
   .logo{
       display: inline-flex;
       }
       
       .logo img{
-      height: 60px;
-      margin-left: 250px;
+      height: 50px;
+      margin: 0;
       }
       
       .encabezado{
@@ -35,7 +36,7 @@ header{
       
       .enlaces{
           display: flex;
-          gap: 30px;
+          gap: 10px;
       }
       
       .enlaces a{
@@ -43,7 +44,7 @@ header{
           color: rgb(218, 0, 0);
           font-family: "Josefin Sans", sans-serif;
           font-weight: bold;
-          padding: 20px;
+          padding: 10px;
           font-size: 13px;
           transition: all 300ms ease;
           text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
@@ -547,19 +548,172 @@ header{
     background-color: rgb(156, 0, 0);
 }
 
-@media(max-width: center){
-    .footer-row{
-        text-align: center;
-    }
+.MF, .RM, .AA, .RT, .HW {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
 
-    .footer-links{
-        width: 100%;
-        margin-bottom: 30px;
+/* Ajuste de contenido para computadoras */
+@media (min-width: 992px) {
+    .encabezado {
+        width: 70%;
+    }
+    .equipos {
+        padding: 5%;
     }
 }
 
-    
+/* Ajuste para tabletas (hasta 991px) */
+@media (max-width: 991px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo img {
+        height: 40px;
+    }
+    .encabezado {
+        width: 100%;
+    }
+    .equipos {
+        padding: 5%;
+    }
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .left, .right {
+        padding: 0;
+        width: 100%;
+    }
+    .MF, .RM, .AA, .RT, .HW {
+        flex-direction: row;
+        justify-content: center;
+    }
 
+    .MF div, .RM div, .AA div, .RT div, .HW div {
+        width: 30%; /* Reduce el tamaño en tabletas para mejor ajuste */
+        margin: 10px 0;
+    }
 
-    
-    
+    .enlaces a {
+        font-size: 12px;
+    }
+    .row {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    .footer-row {
+        flex-direction: column;
+    }
+    .footer-links {
+        width: 100%;
+    }
+    .left{
+        display: none;
+    }
+}
+
+/* Ajuste para móviles (hasta 767px) */
+@media (max-width: 767px) {
+    .encabezado {
+        display: none; /* Oculta el menú completo en dispositivos móviles */
+    }
+    header {
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .logo img {
+        height: 30px;
+    }
+    .enlaces a {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .equipos {
+        padding: 2%;
+    }
+    .MF, .RM, .AA, .RT, .HW {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MF div, .RM div, .AA div, .RT div, .HW div {
+        width: 80%; /* Ancho máximo en móviles */
+        margin: 10px 0;
+    }
+
+    .contenido {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .left, .right {
+        width: 100%;
+        padding: 5px;
+    }
+    .row {
+        margin: 3px 0;
+        padding: 5px;
+        font-size: 10px;
+    }
+    .race-number {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .race-info {
+        font-size: 8px;
+    }
+    .footer-row {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-links {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .left{
+        display: none;
+    }
+}
+
+/* Ajuste para pantallas muy pequeñas (hasta 480px) */
+@media (max-width: 480px) {
+    .logo img {
+        height: 25px;
+    }
+    .equipos {
+        padding: 1%;
+    }
+    .MF div, .RM div, .AA div, .RT div, .HW div {
+        width: 100%; /* Ocupa todo el ancho */
+        margin: 5px 0;
+    }
+
+    .contenido {
+        padding: 5px;
+    }
+    .row {
+        font-size: 8px;
+    }
+    .race-number {
+        padding: 8px;
+        font-size: 10px;
+    }
+    .race-info {
+        font-size: 7px;
+    }
+    .footer-links h4 {
+        font-size: 14px;
+    }
+    .footer-links ul li a {
+        font-size: 12px;
+    }
+    .left{
+        display: none;
+    }
+}
