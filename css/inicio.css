@@ -35,11 +35,17 @@ header {
         width: 70%;
 }
 
+.enlaces{
+    display: flex;
+    gap: 30px
+}
+
 .enlaces a {
     text-decoration: none;
     color: rgb(218, 0, 0);
     font-weight: bold;
-    padding: 10px;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 20px;
     font-size: 13px;
     transition: all 300ms ease;
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.199);
@@ -187,6 +193,9 @@ header {
     .footer-links {
         width: calc(100% / 2 - 20px);
     }
+    .imgfondo{
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -205,16 +214,25 @@ header {
 
     .contenidocuerpo {
         padding: 150px 20px;
+        color: black;
     }
 
     .footer-links {
         width: 100%;
+    }
+    .imgfondo{
+        display: none;
+    }
+
+    .info{
+        display: contents;
     }
 }
 
 @media (max-width: 480px) {
     .contenidocuerpo {
         padding: 100px 20px;
+        color: black;
     }
 
     .enlaces a {
@@ -228,5 +246,12 @@ header {
 
     .footer-links ul li a {
         font-size: 16px;
+    }
+    .imgfondo{
+        display: none;
+    }
+
+    .info{
+        display: inline-flexbox;
     }
 }
