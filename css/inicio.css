@@ -193,9 +193,6 @@ header {
     .footer-links {
         width: calc(100% / 2 - 20px);
     }
-    .imgfondo{
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
